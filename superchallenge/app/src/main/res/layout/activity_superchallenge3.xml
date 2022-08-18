@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".superchallenge3"
+    android:background="@drawable/gradient_list_3"
+    android:id="@+id/mainLyout3">
+
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="312dp"
+        android:layout_height="91dp"
+        android:background="@drawable/custom_button"
+        android:text="Go Back"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <TextView
+        android:id="@+id/T8"
+        android:layout_width="400dp"
+        android:layout_height="360dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="Rock Paper Scissors. this game create for fun. you will Play with a bot. first one get 10 point will be the winner. have fun :)"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/C5"
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:backgroundTint="#FFD900"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053">
+
+        <TextView
+            android:id="@+id/T7"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:gravity="center"
+            android:text="what you have to know!"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
